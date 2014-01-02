@@ -1,0 +1,104 @@
+html {
+  height: 750px;
+  width: 1050px
+}
+body {
+  height: 750px;
+  width: 1050px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+}
+a {
+  color: #00b7ff;
+}
+.wrapper {
+  width: 1050px;
+  height: 750px;
+  margin: 0 auto 0 auto;
+}
+.message_box {
+  height: 85%;
+  width: 65%;
+  border: 3px solid #ccc;
+  font: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+.user_box {
+  padding-left: 50px;
+  height: 50%;
+  width: 80%;
+  border: 3px solid #ccc;
+  font: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.send_box {
+  height: 8%;
+  width: 65%;
+  resize: none;
+  overflow: auto;
+}
+b.sendtxt {
+  font: 10px;
+  padding-right: 5px;
+  padding-left: 50%;
+  color: #093;
+  font-style: italic;
+  float: right;
+}
+b.recvtxt {
+  font: 10px;
+  padding-left: 5px;
+  padding-right: 50%;
+  color: #06f;
+  font-style: italic;
+  float: left;
+}
+b.usertxt{
+  font: 10px;
+  float: left;
+}
+h1 {
+  font: 30px;
+}
+.message_area {
+  border: 3px solid #ccc;
+  padding-bottom: 30px;
+  display: inline-block;
+  height: 95%;
+  width: 100%;
+}
+.sidebar {
+  padding: 15px;
+  height: 95%;
+  width: 300px;
+  position: relative;
+  top: -752px;
+  right: -5px;
+  float: right;
+  display: inline-block;
+  background-color: rgba(51,102,255,0.54);
+  border: 3px solid #ccc;
+}
+.login_form {
+  height: 100%;
+  width: 300px;
+}
+.my_username {
+  height: 15px;
+  width: 75%;
+  resize: none;
+  overflow: hidden;
+}
+.youtube_video {
+  height: 15px;
+  width: 75px;
+  resize: none;
+  overflow: hidden;
+}

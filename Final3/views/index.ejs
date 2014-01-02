@@ -1,0 +1,55 @@
+<% layout('layout') -%>
+
+<h1>Chat App</h1>
+
+<div id='message' class='message_area'>
+	<div id='my_message_data' class='message_box'></div>
+	<br/><br/>
+	<textarea id='my_message' class='send_box'></textarea>
+	<br/>
+	<button align='right' id='send_message'>Send!</button>
+</div>
+	
+<div id='sidebar' class='sidebar'>
+	<b>username:</b>
+	<textarea id='username' class='my_username'></textarea>
+	<br/>
+	<b>groupname:</b>
+	<textarea id='groupname' class='my_username'></textarea>
+	<br/>
+	<button align='center' id='join_chat'>Connect!</button>
+	<br />
+	<br />
+	<div id='cur_username'>
+	<b>Your username: </b>
+	</div>
+	<br />
+	<div id='cur_group'>
+	<b>Your current group: 
+	</b>
+	</div>
+	<br />
+	<b> Users online: </b>
+	<br />
+	<div id='user_list' class='user_box'></div>
+</div>
+<br />
+<br />
+<div id="player"></div>
+<br />
+<b>Youtube video:</b>
+<br />
+<textarea id='video_ID' class='youtube_video'></textarea>
+<button align='center' id='add_video'>Add to playlist</button>
+
+<br />
+<div id="videos">
+<b> Me </b>
+<br />
+<video id="me" autoplay></video>
+<br />
+<b> Everyone else </b>
+<br />
+<b id ="friend"></b>
+<video id="you" autoplay></video>
+</div>
